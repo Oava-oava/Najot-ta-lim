@@ -1,0 +1,9 @@
+import os
+os.system("cls")
+
+
+n = int(input("N: "))
+for i in range (40, 180 + 1):
+    if(i % 7 == 0 and i % 2 == 0 and i % 6 == 0 and i % 4 == 0):
+        print(i)
+
